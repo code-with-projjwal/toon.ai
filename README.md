@@ -25,14 +25,6 @@ The `ToonParse` class provides a single public static method for conversion:
 
 Converts the provided `System.Data.DataTable` into the Toon string format.
 
-```csharp
-using System.Data;
-using Clarity.Business.AI;
-
-// Assuming 'myDataTable' is a populated DataTable object
-string toonString = ToonParse.FromDataTable(myDataTable);
-````
-
 -----
 
 ## 🧭 Toon Format Structure
